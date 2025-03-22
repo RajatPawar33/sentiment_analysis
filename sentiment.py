@@ -8,7 +8,7 @@ from torch.optim import AdamW
 from tqdm import tqdm
 
 # Load dataset and sample 6000 rows
-file_path = "C:/Users/rv401/Downloads/IMDB Dataset.csv/IMDB Dataset.csv"  # Update with your file path
+file_path = "C:/Users/rv401/Desktop/sentiment_analysis/IMDB Dataset.csv"  # Update with your file path
 dataset = pd.read_csv(file_path)
 dataset = dataset.sample(6000, random_state=42)  # Sample 6000 rows for training/testing
 
