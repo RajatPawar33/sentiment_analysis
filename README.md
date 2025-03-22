@@ -18,11 +18,18 @@ In this project, a random sample of 6,000 rows is used to speed up training and 
 
 Installation
 Clone this repository:
+
 git clone https://github.com/RajatPawar33/sentiment_analysis.git
+
 cd sentiment_analysis
 
 Model Details:
+
 Pre-trained Model: roberta-base from Hugging Face.
+
 Training: Fine-tuned for 3 epochs using AdamW optimizer.
+
 Batch Size: 8 (optimized for CPU usage).
+
 Max Sequence Length: 512 tokens.
+
